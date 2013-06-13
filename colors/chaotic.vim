@@ -38,7 +38,7 @@ elseif has("gui_running") || &t_Co == 256
     CSAHi vimMapRhsExtend term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi SpellLocal term=underline cterm=undercurl ctermbg=bg ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
     CSAHi vimMenuPriority term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-    CSAHi PmenuSel term=NONE cterm=NONE ctermbg=159 ctermfg=16 gui=NONE guibg=#afffff guifg=#000000
+    CSAHi PmenuSel term=NONE cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#afffff guifg=#000000
     CSAHi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey guifg=fg
     CSAHi PmenuThumb term=NONE cterm=NONE ctermbg=130 ctermfg=232 gui=reverse guibg=bg guifg=fg
     CSAHi TabLine term=underline cterm=NONE ctermbg=145 ctermfg=16 gui=italic guibg=#b0b8c0 guifg=black
@@ -105,7 +105,7 @@ elseif has("gui_running") || &t_Co == 256
     CSAHi vimAugroupError term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi perlVarMember term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimMenuBang term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-    CSAHi Pmenu term=NONE cterm=NONE ctermbg=66 ctermfg=233 gui=NONE guibg=#005f5f guifg=#d7ffff
+    CSAHi Pmenu term=NONE cterm=NONE ctermbg=60 ctermfg=153 gui=NONE guibg=#005f5f guifg=#d7ffff
     CSAHi vimSynPatMod term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSyncLines term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi StorageClass term=NONE cterm=NONE ctermbg=bg ctermfg=179 gui=NONE guibg=bg guifg=#c59f6f

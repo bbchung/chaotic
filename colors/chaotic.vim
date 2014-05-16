@@ -102,7 +102,7 @@ elseif has("gui_running") || &t_Co == 256
     CSAHi vimAugroupError term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi perlVarMember term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimMenuBang term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-    CSAHi Pmenu term=NONE cterm=NONE ctermbg=95 ctermfg=230 gui=NONE guibg=#005f5f guifg=#d7ffff
+    CSAHi Pmenu term=NONE cterm=NONE ctermbg=65 ctermfg=159 gui=NONE guibg=#005f5f guifg=#d7ffff
     CSAHi PmenuSel term=NONE cterm=NONE ctermbg=153 ctermfg=232 gui=NONE guibg=#afffff guifg=#000000
     CSAHi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey guifg=fg
     CSAHi PmenuThumb term=NONE cterm=NONE ctermbg=130 ctermfg=232 gui=reverse guibg=bg guifg=fg

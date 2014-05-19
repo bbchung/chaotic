@@ -210,8 +210,8 @@ elseif has("gui_running") || &t_Co == 256
     CSAHi pythonSpaceError term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimMapLhs term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi FoldColumn term=NONE cterm=NONE ctermbg=235 ctermfg=145 gui=NONE guibg=#384048 guifg=#a0a8b0
-    CSAHi DiffAdd term=bold cterm=NONE ctermbg=Blue ctermfg=fg gui=NONE guibg=LightBlue guifg=fg
-    CSAHi DiffChange term=bold cterm=NONE ctermbg=Magenta ctermfg=fg gui=NONE guibg=LightMagenta guifg=fg
+    CSAHi DiffAdd term=bold cterm=NONE ctermbg=57 ctermfg=fg gui=NONE guibg=LightBlue guifg=fg
+    CSAHi DiffChange term=bold cterm=NONE ctermbg=197 ctermfg=fg gui=NONE guibg=LightMagenta guifg=fg
     CSAHi DiffDelete term=bold cterm=bold ctermbg=195 ctermfg=21 gui=bold guibg=LightCyan guifg=Blue
     CSAHi DiffText term=reverse cterm=bold ctermbg=196 ctermfg=fg gui=bold guibg=Red guifg=fg
     CSAHi SignColumn term=NONE cterm=NONE ctermbg=59 ctermfg=145 gui=NONE guibg=#384048 guifg=#a0a8b0

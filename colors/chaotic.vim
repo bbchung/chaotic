@@ -17,23 +17,23 @@ endif
 if 0
 elseif has("gui_running") || &t_Co == 256
 	CSAHi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi IncSearch term=reverse cterm=bold ctermbg=230 ctermfg=NONE gui=reverse guibg=bg guifg=fg
+	CSAHi IncSearch term=reverse cterm=bold ctermbg=230 ctermfg=16 gui=reverse guibg=bg guifg=fg
 	CSAHi Search term=reverse cterm=bold ctermbg=25 ctermfg=fg gui=underline guibg=#302028 guifg=#f0a0c0
-	CSAHi SpellLocal term=underline cterm=undercurl ctermbg=bg ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
-	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=bg ctermfg=9 gui=undercurl guibg=bg guifg=fg guisp=Red
-	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=bg ctermfg=228 gui=undercurl guibg=bg guifg=fg guisp=Blue
-	CSAHi SpellRare term=reverse cterm=undercurl ctermbg=bg ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
+	CSAHi SpellLocal term=underline cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
+	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=9 gui=undercurl guibg=bg guifg=fg guisp=Red
+	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=228 gui=undercurl guibg=bg guifg=fg guisp=Blue
+	CSAHi SpellRare term=reverse cterm=undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
 	CSAHi Cursor term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#b0d0f0 guifg=bg
-	CSAHi CursorColumn term=NONE cterm=NONE ctermbg=234 ctermfg=fg gui=NONE guibg=#1c1c1c guifg=fg
-	CSAHi CursorLine term=underline cterm=NONE ctermbg=234 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
+	CSAHi CursorColumn term=NONE cterm=NONE ctermbg=234 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
+	CSAHi CursorLine term=NONE cterm=NONE ctermbg=234 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi CursorLineNr term=underline cterm=NONE ctermbg=234 ctermfg=130 gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi LineNr term=underline cterm=NONE ctermbg=NONE ctermfg=241 gui=NONE guibg=#090909 guifg=#605958
 	CSAHi Pmenu term=NONE cterm=NONE ctermbg=233 ctermfg=187 gui=NONE guibg=#005f5f guifg=#d7ffff
 	CSAHi PmenuSel term=NONE cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=#afffff guifg=#000000
 	CSAHi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey guifg=fg
 	CSAHi PmenuThumb term=NONE cterm=NONE ctermbg=237 ctermfg=NONE gui=reverse guibg=bg guifg=fg
-	CSAHi StatusLine term=reverse,bold cterm=NONE ctermbg=234 ctermfg=229 gui=italic guibg=#1c1c1c guifg=#ffffaf
-	CSAHi StatusLineNC term=reverse cterm=NONE ctermbg=234 ctermfg=241 gui=italic guibg=#1c1c1c guifg=#626262
+	CSAHi StatusLine term=reverse,bold cterm=NONE ctermbg=235 ctermfg=229 gui=italic guibg=#1c1c1c guifg=#ffffaf
+	CSAHi StatusLineNC term=reverse cterm=NONE ctermbg=235 ctermfg=241 gui=italic guibg=#1c1c1c guifg=#626262
 	CSAHi VertSplit term=reverse cterm=NONE ctermbg=NONE ctermfg=24 gui=italic guibg=#090909 guifg=#005f5f
 	CSAHi FoldColumn term=NONE cterm=NONE ctermbg=235 ctermfg=145 gui=NONE guibg=#384048 guifg=#a0a8b0
 	CSAHi DiffAdd term=bold cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=LightBlue guifg=fg

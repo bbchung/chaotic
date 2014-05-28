@@ -17,8 +17,8 @@ endif
 if 0
 elseif has("gui_running") || &t_Co == 256
 	CSAHi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi IncSearch term=reverse cterm=bold ctermbg=158 ctermfg=bg gui=reverse guibg=bg guifg=fg
-	CSAHi Search term=reverse cterm=bold ctermbg=158 ctermfg=bg gui=underline guibg=#302028 guifg=#f0a0c0
+	CSAHi IncSearch term=reverse cterm=bold ctermbg=228 ctermfg=bg gui=reverse guibg=bg guifg=fg
+	CSAHi Search term=reverse cterm=bold ctermbg=159 ctermfg=bg gui=underline guibg=#302028 guifg=#f0a0c0
 	CSAHi SpellLocal term=underline cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
 	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=9 gui=undercurl guibg=bg guifg=fg guisp=Red
 	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=228 gui=undercurl guibg=bg guifg=fg guisp=Blue
@@ -28,7 +28,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi CursorLine term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi CursorLineNr term=underline cterm=NONE ctermbg=233 ctermfg=130 gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi LineNr term=underline cterm=NONE ctermbg=NONE ctermfg=241 gui=NONE guibg=#090909 guifg=#605958
-	CSAHi Pmenu term=NONE cterm=NONE ctermbg=234 ctermfg=187 gui=NONE guibg=#005f5f guifg=#d7ffff
+	CSAHi Pmenu term=NONE cterm=NONE ctermbg=234 ctermfg=249 gui=NONE guibg=#005f5f guifg=#d7ffff
 	CSAHi PmenuSel term=NONE cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=#afffff guifg=#000000
 	CSAHi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey guifg=fg
 	CSAHi PmenuThumb term=NONE cterm=NONE ctermbg=237 ctermfg=NONE gui=reverse guibg=bg guifg=fg

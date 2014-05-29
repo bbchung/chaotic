@@ -28,7 +28,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi CursorLine term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi CursorLineNr term=underline cterm=NONE ctermbg=233 ctermfg=130 gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi LineNr term=underline cterm=NONE ctermbg=NONE ctermfg=241 gui=NONE guibg=#090909 guifg=#605958
-	CSAHi Pmenu term=NONE cterm=NONE ctermbg=234 ctermfg=249 gui=NONE guibg=#005f5f guifg=#d7ffff
+	CSAHi Pmenu term=NONE cterm=NONE ctermbg=234 ctermfg=251 gui=NONE guibg=#005f5f guifg=#d7ffff
 	CSAHi PmenuSel term=NONE cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=#afffff guifg=#000000
 	CSAHi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey guifg=fg
 	CSAHi PmenuThumb term=NONE cterm=NONE ctermbg=237 ctermfg=NONE gui=reverse guibg=bg guifg=fg

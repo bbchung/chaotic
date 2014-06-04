@@ -17,11 +17,12 @@ endif
 if 0
 elseif has("gui_running") || &t_Co == 256
 	CSAHi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi IncSearch term=reverse cterm=bold ctermbg=159 ctermfg=234 gui=reverse guibg=bg guifg=fg
+	CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=244 gui=italic guibg=bg guifg=#888888
+	CSAHi IncSearch term=reverse cterm=NONE ctermbg=4 ctermfg=NONE gui=reverse guibg=bg guifg=fg
 	CSAHi Search term=reverse cterm=bold ctermbg=229 ctermfg=234 gui=underline guibg=#302028 guifg=#f0a0c0
 	CSAHi SpellLocal term=underline cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
-	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=9 gui=undercurl guibg=bg guifg=fg guisp=Red
-	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=226 gui=undercurl guibg=bg guifg=fg guisp=Blue
+	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=1 gui=undercurl guibg=bg guifg=fg guisp=Red
+	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=3 gui=undercurl guibg=bg guifg=fg guisp=Blue
 	CSAHi SpellRare term=reverse cterm=undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
 	CSAHi Cursor term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#b0d0f0 guifg=bg
 	CSAHi CursorColumn term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
@@ -70,7 +71,6 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi vimAutoCmdSfxList term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi ColorColumn term=reverse cterm=NONE ctermbg=217 ctermfg=fg gui=NONE guibg=LightRed guifg=fg
 	CSAHi MatchParen term=reverse cterm=bold ctermbg=108 ctermfg=231 gui=bold guibg=#80a090 guifg=white
-	CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=241 gui=italic guibg=bg guifg=#888888
 	CSAHi Constant term=underline cterm=NONE ctermbg=bg ctermfg=167 gui=NONE guibg=bg guifg=#cf6a4c
 	CSAHi Special term=bold cterm=NONE ctermbg=bg ctermfg=107 gui=NONE guibg=bg guifg=#799d6a
 	CSAHi Identifier term=underline cterm=NONE ctermbg=bg ctermfg=183 gui=NONE guibg=bg guifg=#c6b6ee

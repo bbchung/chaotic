@@ -21,7 +21,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi Search term=reverse cterm=bold ctermbg=227 ctermfg=234 gui=underline guibg=#302028 guifg=#f0a0c0
 	CSAHi SpellLocal term=underline cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
 	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=9 gui=undercurl guibg=bg guifg=fg guisp=Red
-	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=228 gui=undercurl guibg=bg guifg=fg guisp=Blue
+	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=202 gui=undercurl guibg=bg guifg=fg guisp=Blue
 	CSAHi SpellRare term=reverse cterm=undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
 	CSAHi Cursor term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#b0d0f0 guifg=bg
 	CSAHi CursorColumn term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg

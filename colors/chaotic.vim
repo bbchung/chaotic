@@ -18,7 +18,7 @@ if 0
 elseif has("gui_running") || &t_Co == 256
 	CSAHi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
 	CSAHi IncSearch term=reverse cterm=bold ctermbg=159 ctermfg=234 gui=reverse guibg=bg guifg=fg
-	CSAHi Search term=reverse cterm=bold ctermbg=227 ctermfg=234 gui=underline guibg=#302028 guifg=#f0a0c0
+	CSAHi Search term=reverse cterm=bold ctermbg=229 ctermfg=234 gui=underline guibg=#302028 guifg=#f0a0c0
 	CSAHi SpellLocal term=underline cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
 	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=9 gui=undercurl guibg=bg guifg=fg guisp=Red
 	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=226 gui=undercurl guibg=bg guifg=fg guisp=Blue

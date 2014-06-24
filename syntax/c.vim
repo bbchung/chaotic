@@ -1,2 +1,2 @@
-syn match defined /\s\u\+\(\u*\d*_*\)*\s*/
+syn match defined /\u\(\u\|\d\|_\)\+/
 hi def link defined Macro

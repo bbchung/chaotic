@@ -77,7 +77,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi Statement term=bold cterm=NONE ctermbg=bg ctermfg=103 gui=NONE guibg=bg guifg=#8197bf
 	CSAHi vimFiletype term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi vimFunction term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-	CSAHi Function term=NONE cterm=NONE ctermbg=bg ctermfg=222 gui=NONE guibg=bg guifg=#fad07a
+	CSAHi Function term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=#fad07a
 	CSAHi helpNormal term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi vimAuSyntax term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi PreProc term=underline cterm=NONE ctermbg=bg ctermfg=110 gui=NONE guibg=bg guifg=#8fbfdc

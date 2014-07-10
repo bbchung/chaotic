@@ -81,7 +81,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi helpNormal term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi vimAuSyntax term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi PreProc term=underline cterm=NONE ctermbg=bg ctermfg=110 gui=NONE guibg=bg guifg=#8fbfdc
-	CSAHi Type term=underline cterm=NONE ctermbg=bg ctermfg=215 gui=NONE guibg=bg guifg=#ffb964
+	CSAHi Type term=underline cterm=NONE ctermbg=NONE ctermfg=215 gui=NONE guibg=bg guifg=#ffb964
 	CSAHi Underlined term=underline cterm=underline ctermbg=bg ctermfg=111 gui=underline guibg=bg guifg=#80a0ff
 	CSAHi vimGroupName term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi Error term=reverse cterm=NONE ctermbg=52 ctermfg=231 gui=NONE guibg=#602020 guifg=White

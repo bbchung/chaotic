@@ -16,6 +16,11 @@ endif
 
 if 0
 elseif has("gui_running") || &t_Co == 256
+	CSAHi TypeRef term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi StructDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi ClassDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi EnumDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+
 	CSAHi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
 	CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=245 gui=italic guibg=bg guifg=#888888
 	CSAHi IncSearch term=reverse cterm=NONE ctermbg=61 ctermfg=NONE gui=reverse guibg=bg guifg=fg
@@ -48,7 +53,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi vimExtCmd term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi vimFilter term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi SpecialKey term=bold cterm=NONE ctermbg=236 ctermfg=244 gui=NONE guibg=#343434 guifg=#808080
-	CSAHi NonText term=bold cterm=bold ctermbg=232 ctermfg=244 gui=bold guibg=#090909 guifg=#808080
+	CSAHi NonText term=bold cterm=bold ctermbg=NONE ctermfg=244 gui=bold guibg=#090909 guifg=#808080
 	CSAHi Directory term=bold cterm=NONE ctermbg=bg ctermfg=186 gui=NONE guibg=bg guifg=#dad085
 	CSAHi ErrorMsg term=NONE cterm=NONE ctermbg=196 ctermfg=231 gui=NONE guibg=Red guifg=White
 	CSAHi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=29 gui=bold guibg=bg guifg=SeaGreen

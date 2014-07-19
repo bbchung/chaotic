@@ -16,11 +16,6 @@ endif
 
 if 0
 elseif has("gui_running") || &t_Co == 256
-	CSAHi TypeRef term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi StructDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi ClassDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi EnumDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi CursorDeclRef term=NONE cterm=NONE ctermbg=27 ctermfg=None gui=NONE guibg=#090909 guifg=#dadada
 
 	CSAHi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
 	CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=245 gui=italic guibg=bg guifg=#888888
@@ -235,6 +230,15 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi vimPythonRegion term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi pythonSync term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi pythonSpaceError term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
+
+	CSAHi TypeRef term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi StructDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi ClassDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi EnumDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi EnumDeclRefExpr term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi CursorDeclRef term=NONE cterm=NONE ctermbg=27 ctermfg=None gui=NONE guibg=#090909 guifg=#dadada
+
+
 endif
 
 if 1

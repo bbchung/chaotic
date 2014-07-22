@@ -236,7 +236,7 @@ elseif has("gui_running") || &t_Co == 256
 	"CSAHi ClassDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
 	"CSAHi EnumDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
 	"CSAHi EnumDeclRefExpr term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi CursorDeclRef term=NONE cterm=NONE ctermbg=27 ctermfg=fg gui=NONE guibg=#090909 guifg=#dadada
+	CSAHi CursorDefRef term=NONE cterm=NONE ctermbg=27 ctermfg=fg gui=NONE guibg=#090909 guifg=#dadada
 endif
 
 if 1

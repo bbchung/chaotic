@@ -27,7 +27,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi SpellRare term=reverse cterm=undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
 	CSAHi Cursor term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#b0d0f0 guifg=bg
 	CSAHi CursorColumn term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
-	CSAHi CursorLine term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
+	CSAHi CursorLine term=NONE cterm=NONE ctermbg=24 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi CursorLineNr term=underline cterm=NONE ctermbg=233 ctermfg=130 gui=NONE guibg=#1c1c1c guifg=fg
 	CSAHi LineNr term=underline cterm=NONE ctermbg=NONE ctermfg=241 gui=NONE guibg=#090909 guifg=#605958
 	CSAHi Pmenu term=NONE cterm=NONE ctermbg=234 ctermfg=251 gui=NONE guibg=#005f5f guifg=#d7ffff

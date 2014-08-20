@@ -18,12 +18,13 @@ if 0
 elseif has("gui_running") || &t_Co == 256
 
 	CSAHi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
-	CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=245 gui=italic guibg=bg guifg=#888888
-	CSAHi IncSearch term=reverse cterm=NONE ctermbg=61 ctermfg=NONE gui=reverse guibg=bg guifg=fg
-	CSAHi Search term=reverse cterm=bold ctermbg=54 ctermfg=NONE gui=underline guibg=#302028 guifg=#f0a0c0
-	CSAHi SpellLocal term=underline cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
+	CSAHi Comment term=NONE cterm=italic ctermbg=bg ctermfg=245 gui=italic guibg=bg guifg=#888888
+	CSAHi Todo term=NONE cterm=bold ctermbg=bg ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
+	CSAHi IncSearch term=NONE cterm=NONE ctermbg=61 ctermfg=NONE gui=reverse guibg=bg guifg=fg
+	CSAHi Search term=NONE cterm=NONE ctermbg=54 ctermfg=NONE gui=underline guibg=#302028 guifg=#f0a0c0
+	CSAHi SpellLocal term=NONE cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
 	CSAHi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=1 gui=undercurl guibg=bg guifg=fg guisp=Red
-	CSAHi SpellCap term=reverse cterm=undercurl ctermbg=NONE ctermfg=3 gui=undercurl guibg=bg guifg=fg guisp=Blue
+	CSAHi SpellCap term=underline cterm=undercurl ctermbg=NONE ctermfg=3 gui=undercurl guibg=bg guifg=fg guisp=Blue
 	CSAHi SpellRare term=reverse cterm=undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
 	CSAHi Cursor term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#b0d0f0 guifg=bg
 	CSAHi CursorColumn term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
@@ -37,6 +38,7 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi StatusLine term=reverse,bold cterm=NONE ctermbg=235 ctermfg=229 gui=italic guibg=#1c1c1c guifg=#ffffaf
 	CSAHi StatusLineNC term=reverse cterm=NONE ctermbg=235 ctermfg=241 gui=italic guibg=#1c1c1c guifg=#626262
 	CSAHi VertSplit term=reverse cterm=NONE ctermbg=NONE ctermfg=24 gui=italic guibg=#090909 guifg=#005f5f
+	CSAHi Folded term=NONE cterm=italic ctermbg=NONE ctermfg=109 gui=italic guibg=#121212 guifg=#87afaf
 	CSAHi FoldColumn term=NONE cterm=NONE ctermbg=235 ctermfg=145 gui=NONE guibg=#384048 guifg=#a0a8b0
 	CSAHi DiffAdd term=bold cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=LightBlue guifg=fg
 	CSAHi DiffChange term=bold cterm=NONE ctermbg=95 ctermfg=fg gui=NONE guibg=LightMagenta guifg=fg
@@ -86,7 +88,6 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi Underlined term=underline cterm=underline ctermbg=bg ctermfg=111 gui=underline guibg=bg guifg=#80a0ff
 	CSAHi vimGroupName term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi Error term=reverse cterm=NONE ctermbg=52 ctermfg=231 gui=NONE guibg=#602020 guifg=White
-	CSAHi Todo term=NONE cterm=bold ctermbg=bg ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
 	CSAHi String term=NONE cterm=NONE ctermbg=bg ctermfg=107 gui=NONE guibg=bg guifg=#99ad6a
 	CSAHi vimOperParen term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi vimRegion term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
@@ -141,7 +142,6 @@ elseif has("gui_running") || &t_Co == 256
 	CSAHi vimCollClass term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=220 gui=NONE guibg=bg guifg=Red
 	CSAHi WildMenu term=NONE cterm=NONE ctermbg=226 ctermfg=16 gui=NONE guibg=Yellow guifg=Black
-	CSAHi Folded term=NONE cterm=NONE ctermbg=NONE ctermfg=109 gui=italic guibg=#121212 guifg=#87afaf
 	CSAHi vimMapRhs term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi vimSyncMatch term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
 	CSAHi vimMapLhs term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg

@@ -5,6 +5,7 @@ endif
 
 let g:colors_name = expand("<sfile>:t:r")
 
+" default {
 hi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
 hi IncSearch term=NONE cterm=NONE ctermbg=61 ctermfg=NONE gui=reverse guibg=bg guifg=fg
 hi Search term=NONE cterm=NONE ctermbg=54 ctermfg=NONE gui=underline guibg=#302028 guifg=#f0a0c0
@@ -12,6 +13,10 @@ hi SpellLocal term=NONE cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl gu
 hi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=1 gui=undercurl guibg=bg guifg=fg guisp=Red
 hi SpellCap term=underline cterm=undercurl ctermbg=NONE ctermfg=3 gui=undercurl guibg=bg guifg=fg guisp=Blue
 hi SpellRare term=reverse cterm=undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
+hi DiffAdd term=bold cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=LightBlue guifg=fg
+hi DiffChange term=bold cterm=NONE ctermbg=95 ctermfg=fg gui=NONE guibg=LightMagenta guifg=fg
+hi DiffDelete term=bold cterm=bold ctermbg=152 ctermfg=21 gui=bold guibg=LightCyan guifg=Blue
+hi DiffText term=reverse cterm=bold ctermbg=1 ctermfg=fg gui=bold guibg=Red guifg=fg
 hi Cursor term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#b0d0f0 guifg=bg
 hi CursorColumn term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
 hi CursorLine term=NONE cterm=NONE ctermbg=24 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
@@ -50,8 +55,9 @@ hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=220 gui=NONE guibg=bg guif
 hi WildMenu term=NONE cterm=NONE ctermbg=226 ctermfg=16 gui=NONE guibg=Yellow guifg=Black
 hi SignColumn term=NONE cterm=NONE ctermbg=59 ctermfg=145 gui=NONE guibg=#384048 guifg=#a0a8b0
 hi Conceal term=NONE cterm=NONE ctermbg=66 ctermfg=252 gui=NONE guibg=DarkGrey guifg=LightGrey
+" }
 
-" syntax {
+" syncolor {
 hi Comment term=NONE cterm=italic ctermbg=bg ctermfg=245 gui=italic guibg=bg guifg=#888888
 hi Todo term=NONE cterm=bold ctermbg=bg ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
 hi Constant term=underline cterm=NONE ctermbg=bg ctermfg=167 gui=NONE guibg=bg guifg=#cf6a4c
@@ -70,12 +76,6 @@ hi Delimiter term=NONE cterm=NONE ctermbg=bg ctermfg=66 gui=NONE guibg=bg guifg=
 hi Ignore term=NONE cterm=NONE ctermbg=bg ctermfg=232 gui=NONE guibg=bg guifg=bg
 " }
 
-" VimDiff {
-hi DiffAdd term=bold cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=LightBlue guifg=fg
-hi DiffChange term=bold cterm=NONE ctermbg=95 ctermfg=fg gui=NONE guibg=LightMagenta guifg=fg
-hi DiffDelete term=bold cterm=bold ctermbg=152 ctermfg=21 gui=bold guibg=LightCyan guifg=Blue
-hi DiffText term=reverse cterm=bold ctermbg=1 ctermfg=fg gui=bold guibg=Red guifg=fg
-" }
 
 " Clighter {
 "hi ClighterTypeRef term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada

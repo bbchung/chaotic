@@ -58,22 +58,22 @@ hi Conceal term=NONE cterm=NONE ctermbg=66 ctermfg=252 gui=NONE guibg=DarkGrey g
 " }
 
 " syncolor {
-hi Comment term=NONE cterm=italic ctermbg=bg ctermfg=245 gui=italic guibg=bg guifg=#888888
-hi Todo term=NONE cterm=bold ctermbg=bg ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
-hi Constant term=underline cterm=NONE ctermbg=bg ctermfg=167 gui=NONE guibg=bg guifg=#cf6a4c
-hi Special term=bold cterm=NONE ctermbg=bg ctermfg=107 gui=NONE guibg=bg guifg=#799d6a
-hi Identifier term=underline cterm=NONE ctermbg=bg ctermfg=183 gui=NONE guibg=bg guifg=#c6b6ee
-hi Statement term=bold cterm=NONE ctermbg=bg ctermfg=103 gui=NONE guibg=bg guifg=#8197bf
-hi Function term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=#fad07a
-hi PreProc term=underline cterm=NONE ctermbg=bg ctermfg=110 gui=NONE guibg=bg guifg=#8fbfdc
+hi Comment term=NONE cterm=italic ctermbg=None ctermfg=245 gui=italic guibg=bg guifg=#888888
+hi Todo term=NONE cterm=bold ctermbg=None ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
+hi Constant term=underline cterm=NONE ctermbg=None ctermfg=167 gui=NONE guibg=bg guifg=#cf6a4c
+hi Special term=bold cterm=NONE ctermbg=None ctermfg=107 gui=NONE guibg=bg guifg=#799d6a
+hi Identifier term=underline cterm=NONE ctermbg=None ctermfg=183 gui=NONE guibg=bg guifg=#c6b6ee
+hi Statement term=bold cterm=NONE ctermbg=None ctermfg=103 gui=NONE guibg=bg guifg=#8197bf
+hi Function term=NONE cterm=NONE ctermbg=None ctermfg=fg gui=NONE guibg=bg guifg=#fad07a
+hi PreProc term=underline cterm=NONE ctermbg=None ctermfg=110 gui=NONE guibg=bg guifg=#8fbfdc
 hi Type term=underline cterm=NONE ctermbg=NONE ctermfg=215 gui=NONE guibg=bg guifg=#ffb964
-hi Underlined term=underline cterm=underline ctermbg=bg ctermfg=111 gui=underline guibg=bg guifg=#80a0ff
-hi Error term=reverse cterm=NONE ctermbg=52 ctermfg=231 gui=NONE guibg=#602020 guifg=White
-hi String term=NONE cterm=NONE ctermbg=bg ctermfg=107 gui=NONE guibg=bg guifg=#99ad6a
-hi StorageClass term=NONE cterm=NONE ctermbg=bg ctermfg=179 gui=NONE guibg=bg guifg=#c59f6f
-hi Structure term=NONE cterm=NONE ctermbg=bg ctermfg=110 gui=NONE guibg=bg guifg=#8fbfdc
-hi Delimiter term=NONE cterm=NONE ctermbg=bg ctermfg=66 gui=NONE guibg=bg guifg=#668799
-hi Ignore term=NONE cterm=NONE ctermbg=bg ctermfg=232 gui=NONE guibg=bg guifg=bg
+hi Underlined term=underline cterm=underline ctermbg=None ctermfg=111 gui=underline guibg=bg guifg=#80a0ff
+hi Error term=reverse cterm=NONE ctermbg=None ctermfg=231 gui=NONE guibg=#602020 guifg=White
+hi String term=NONE cterm=NONE ctermbg=None ctermfg=107 gui=NONE guibg=bg guifg=#99ad6a
+hi StorageClass term=NONE cterm=NONE ctermbg=None ctermfg=179 gui=NONE guibg=bg guifg=#c59f6f
+hi Structure term=NONE cterm=NONE ctermbg=None ctermfg=110 gui=NONE guibg=bg guifg=#8fbfdc
+hi Delimiter term=NONE cterm=NONE ctermbg=None ctermfg=66 gui=NONE guibg=bg guifg=#668799
+hi Ignore term=NONE cterm=NONE ctermbg=None ctermfg=232 gui=NONE guibg=bg guifg=bg
 " }
 
 

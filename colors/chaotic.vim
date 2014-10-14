@@ -76,13 +76,12 @@ hi Delimiter term=NONE cterm=NONE ctermbg=None ctermfg=66 gui=NONE guibg=bg guif
 hi Ignore term=NONE cterm=NONE ctermbg=None ctermfg=232 gui=NONE guibg=bg guifg=bg
 " }
 
-
 " Clighter {
-"hi ClighterTypeRef term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-"hi ClighterStructDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-"hi ClighterClassDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-"hi ClighterEnumDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-"hi ClighterDeclRefExprEnum term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+"hi clighterTypeRef term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+"hi clighterStructDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#090909 guifg=#dadada
+"hi clighterClassDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#090909 guifg=#dadada
+"hi clighterEnumDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
+"hi clighterDeclRefExprEnum term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
 hi clighterCursorDefRef term=NONE cterm=NONE ctermbg=60 ctermfg=fg gui=NONE guibg=#090909 guifg=#dadada
 " }
 

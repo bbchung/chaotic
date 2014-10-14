@@ -7,7 +7,7 @@ let g:colors_name = expand("<sfile>:t:r")
 
 " default {
 hi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
-hi IncSearch term=NONE cterm=NONE ctermbg=61 ctermfg=NONE gui=reverse guibg=bg guifg=fg
+hi IncSearch term=NONE cterm=NONE ctermbg=60 ctermfg=NONE gui=reverse guibg=bg guifg=fg
 hi Search term=NONE cterm=NONE ctermbg=54 ctermfg=NONE gui=underline guibg=#302028 guifg=#f0a0c0
 hi SpellLocal term=NONE cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
 hi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=1 gui=undercurl guibg=bg guifg=fg guisp=Red
@@ -82,7 +82,7 @@ hi Ignore term=NONE cterm=NONE ctermbg=None ctermfg=232 gui=NONE guibg=bg guifg=
 "hi clighterClassDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#090909 guifg=#dadada
 "hi clighterEnumDecl term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
 "hi clighterDeclRefExprEnum term=NONE cterm=NONE ctermbg=NONE ctermfg=75 gui=NONE guibg=#090909 guifg=#dadada
-hi clighterCursorDefRef term=NONE cterm=NONE ctermbg=60 ctermfg=fg gui=NONE guibg=#090909 guifg=#dadada
+"hi clighterCursorDefRef term=NONE cterm=NONE ctermbg=60 ctermfg=fg gui=NONE guibg=#090909 guifg=#dadada
 " }
 
 " VimL {

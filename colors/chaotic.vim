@@ -28,7 +28,7 @@ hi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey gui
 hi PmenuThumb term=NONE cterm=NONE ctermbg=237 ctermfg=NONE gui=reverse guibg=bg guifg=fg
 hi StatusLine term=reverse,bold cterm=NONE ctermbg=235 ctermfg=229 gui=italic guibg=#1c1c1c guifg=#ffffaf
 hi StatusLineNC term=reverse cterm=NONE ctermbg=235 ctermfg=241 gui=italic guibg=#1c1c1c guifg=#626262
-hi VertSplit term=reverse cterm=NONE ctermbg=NONE ctermfg=24 gui=italic guibg=#090909 guifg=#005f5f
+hi VertSplit term=reverse cterm=NONE ctermbg=NONE ctermfg=242 gui=italic guibg=#090909 guifg=#005f5f
 hi Folded term=NONE cterm=italic ctermbg=NONE ctermfg=109 gui=italic guibg=#121212 guifg=#87afaf
 hi FoldColumn term=NONE cterm=NONE ctermbg=235 ctermfg=145 gui=NONE guibg=#384048 guifg=#a0a8b0
 hi Title term=bold cterm=bold ctermbg=bg ctermfg=71 gui=bold guibg=bg guifg=#70b950

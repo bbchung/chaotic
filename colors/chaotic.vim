@@ -9,10 +9,10 @@ let g:colors_name = expand("<sfile>:t:r")
 hi Normal term=NONE cterm=NONE ctermbg=234 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
 hi IncSearch term=NONE cterm=NONE ctermbg=60 ctermfg=fg gui=reverse guibg=bg guifg=fg
 hi Search term=NONE cterm=NONE ctermbg=24 ctermfg=fg gui=underline guibg=#302028 guifg=#f0a0c0
-hi SpellLocal term=NONE cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
-hi SpellBad term=reverse cterm=undercurl ctermbg=NONE ctermfg=1 gui=undercurl guibg=bg guifg=fg guisp=Red
-hi SpellCap term=underline cterm=undercurl ctermbg=NONE ctermfg=3 gui=undercurl guibg=bg guifg=fg guisp=Blue
-hi SpellRare term=reverse cterm=undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
+hi SpellLocal term=NONE cterm=bold,undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
+hi SpellBad term=reverse cterm=bold,undercurl ctermbg=NONE ctermfg=1 gui=undercurl guibg=bg guifg=fg guisp=Red
+hi SpellCap term=underline cterm=bold,undercurl ctermbg=NONE ctermfg=3 gui=undercurl guibg=bg guifg=fg guisp=Blue
+hi SpellRare term=reverse cterm=bold,undercurl ctermbg=NONE ctermfg=201 gui=undercurl guibg=bg guifg=fg guisp=Magenta
 hi DiffAdd term=bold cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=LightBlue guifg=fg
 hi DiffChange term=bold cterm=NONE ctermbg=95 ctermfg=fg gui=NONE guibg=LightMagenta guifg=fg
 hi DiffDelete term=bold cterm=bold ctermbg=152 ctermfg=21 gui=bold guibg=LightCyan guifg=Blue

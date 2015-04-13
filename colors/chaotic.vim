@@ -6,7 +6,7 @@ endif
 let g:colors_name = expand("<sfile>:t:r")
 
 " default {
-hi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
+hi Normal term=NONE cterm=NONE ctermbg=233 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
 hi IncSearch term=NONE cterm=NONE ctermbg=60 ctermfg=fg gui=reverse guibg=bg guifg=fg
 hi Search term=NONE cterm=NONE ctermbg=24 ctermfg=fg gui=underline guibg=#302028 guifg=#f0a0c0
 hi SpellLocal term=NONE cterm=undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
@@ -18,11 +18,11 @@ hi DiffChange term=bold cterm=NONE ctermbg=95 ctermfg=fg gui=NONE guibg=LightMag
 hi DiffDelete term=bold cterm=bold ctermbg=152 ctermfg=21 gui=bold guibg=LightCyan guifg=Blue
 hi DiffText term=reverse cterm=bold ctermbg=1 ctermfg=fg gui=bold guibg=Red guifg=fg
 hi Cursor term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#b0d0f0 guifg=bg
-hi CursorColumn term=NONE cterm=NONE ctermbg=233 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
-hi CursorLine term=NONE cterm=NONE ctermbg=24 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
-hi CursorLineNr term=underline cterm=NONE ctermbg=233 ctermfg=130 gui=NONE guibg=#1c1c1c guifg=fg
+hi CursorColumn term=NONE cterm=NONE ctermbg=16 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
+hi CursorLine term=NONE cterm=NONE ctermbg=16 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
+hi CursorLineNr term=underline cterm=NONE ctermbg=bg ctermfg=130 gui=NONE guibg=#1c1c1c guifg=fg
 hi LineNr term=underline cterm=NONE ctermbg=NONE ctermfg=241 gui=NONE guibg=#090909 guifg=#605958
-hi Pmenu term=NONE cterm=NONE ctermbg=234 ctermfg=251 gui=NONE guibg=#005f5f guifg=#d7ffff
+hi Pmenu term=NONE cterm=NONE ctermbg=235 ctermfg=251 gui=NONE guibg=#005f5f guifg=#d7ffff
 hi PmenuSel term=NONE cterm=NONE ctermbg=26 ctermfg=fg gui=NONE guibg=#afffff guifg=#000000
 hi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey guifg=fg
 hi PmenuThumb term=NONE cterm=NONE ctermbg=237 ctermfg=NONE gui=reverse guibg=bg guifg=fg
@@ -42,7 +42,7 @@ hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=29 gui=bold guibg=bg guifg=Se
 hi ModeMsg term=bold cterm=bold ctermbg=bg ctermfg=fg gui=bold guibg=bg guifg=fg
 hi TabLine term=underline cterm=NONE ctermbg=145 ctermfg=16 gui=italic guibg=#b0b8c0 guifg=black
 hi TabLineSel term=bold cterm=bold ctermbg=255 ctermfg=16 gui=bold,italic guibg=#f0f0f0 guifg=black
-hi TabLineFill term=reverse cterm=NONE ctermbg=103 ctermfg=232 gui=reverse guibg=bg guifg=#9098a0
+hi TabLineFill term=reverse cterm=NONE ctermbg=103 ctermfg=bg gui=reverse guibg=bg guifg=#9098a0
 hi ColorColumn term=reverse cterm=NONE ctermbg=23 ctermfg=fg gui=NONE guibg=LightRed guifg=fg
 hi MatchParen term=reverse cterm=bold ctermbg=108 ctermfg=231 gui=bold guibg=#80a090 guifg=white
 hi helpNormal term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
@@ -73,7 +73,7 @@ hi String term=NONE cterm=NONE ctermbg=None ctermfg=107 gui=NONE guibg=bg guifg=
 hi StorageClass term=NONE cterm=NONE ctermbg=None ctermfg=179 gui=NONE guibg=bg guifg=#c59f6f
 hi Structure term=NONE cterm=NONE ctermbg=None ctermfg=110 gui=NONE guibg=bg guifg=#8fbfdc
 hi Delimiter term=NONE cterm=NONE ctermbg=None ctermfg=66 gui=NONE guibg=bg guifg=#668799
-hi Ignore term=NONE cterm=NONE ctermbg=None ctermfg=232 gui=NONE guibg=bg guifg=bg
+hi Ignore term=NONE cterm=NONE ctermbg=None ctermfg=bg gui=NONE guibg=bg guifg=bg
 " }
 
 " Clighter {

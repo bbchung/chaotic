@@ -59,7 +59,7 @@ hi Conceal term=NONE cterm=NONE ctermbg=66 ctermfg=252 gui=NONE guibg=DarkGrey g
 
 " syncolor {
 hi Comment term=NONE cterm=None ctermbg=None ctermfg=245 gui=italic guibg=bg guifg=#888888
-hi Todo term=NONE cterm=bold ctermbg=None ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
+hi Todo term=NONE cterm=italic,bold ctermbg=None ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
 hi Constant term=underline cterm=NONE ctermbg=None ctermfg=167 gui=NONE guibg=bg guifg=#cf6a4c
 hi Special term=bold cterm=NONE ctermbg=None ctermfg=107 gui=NONE guibg=bg guifg=#799d6a
 hi Identifier term=underline cterm=NONE ctermbg=None ctermfg=183 gui=NONE guibg=bg guifg=#c6b6ee

@@ -8,7 +8,7 @@ endif
 let g:colors_name = expand("<sfile>:t:r")
 
 " default {
-hi Normal term=NONE cterm=NONE ctermbg=233 ctermfg=255 gui=NONE guibg=#090909 guifg=#dadada
+hi Normal term=NONE cterm=NONE ctermbg=234 ctermfg=254 gui=NONE guibg=#090909 guifg=#dadada
 hi IncSearch term=NONE cterm=NONE ctermbg=60 ctermfg=fg gui=reverse guibg=bg guifg=fg
 hi Search term=NONE cterm=NONE ctermbg=24 ctermfg=fg gui=underline guibg=#302028 guifg=#f0a0c0
 hi SpellLocal term=NONE cterm=bold,undercurl ctermbg=NONE ctermfg=30 gui=undercurl guibg=bg guifg=fg guisp=DarkCyan
@@ -24,14 +24,14 @@ hi CursorColumn term=NONE cterm=NONE ctermbg=16 ctermfg=NONE gui=NONE guibg=#1c1
 hi CursorLine term=NONE cterm=NONE ctermbg=16 ctermfg=NONE gui=NONE guibg=#1c1c1c guifg=fg
 hi CursorLineNr term=underline cterm=NONE ctermbg=bg ctermfg=130 gui=NONE guibg=#1c1c1c guifg=fg
 hi LineNr term=underline cterm=NONE ctermbg=NONE ctermfg=241 gui=NONE guibg=#090909 guifg=#605958
-hi Pmenu term=NONE cterm=NONE ctermbg=235 ctermfg=251 gui=NONE guibg=#005f5f guifg=#d7ffff
+hi Pmenu term=NONE cterm=NONE ctermbg=237 ctermfg=251 gui=NONE guibg=#005f5f guifg=#d7ffff
 hi PmenuSel term=NONE cterm=NONE ctermbg=24 ctermfg=fg gui=NONE guibg=#afffff guifg=#000000
 hi PmenuSbar term=NONE cterm=NONE ctermbg=250 ctermfg=fg gui=NONE guibg=Grey guifg=fg
 hi PmenuThumb term=NONE cterm=NONE ctermbg=237 ctermfg=NONE gui=reverse guibg=bg guifg=fg
 hi StatusLine term=reverse,bold cterm=NONE ctermbg=235 ctermfg=229 gui=italic guibg=#1c1c1c guifg=#ffffaf
 hi StatusLineNC term=reverse cterm=NONE ctermbg=235 ctermfg=241 gui=italic guibg=#1c1c1c guifg=#626262
 hi VertSplit term=reverse cterm=NONE ctermbg=NONE ctermfg=242 gui=italic guibg=#090909 guifg=#005f5f
-hi Folded term=NONE cterm=italic ctermbg=NONE ctermfg=109 gui=italic guibg=#121212 guifg=#87afaf
+hi Folded term=NONE cterm=italic ctermbg=235 ctermfg=109 gui=italic guibg=#121212 guifg=#87afaf
 hi FoldColumn term=NONE cterm=NONE ctermbg=235 ctermfg=145 gui=NONE guibg=#384048 guifg=#a0a8b0
 hi Title term=bold cterm=bold ctermbg=bg ctermfg=71 gui=bold guibg=bg guifg=#70b950
 hi Visual term=reverse cterm=NONE ctermbg=237 ctermfg=NONE gui=NONE guibg=#404040 guifg=fg
@@ -60,7 +60,7 @@ hi Conceal term=NONE cterm=NONE ctermbg=66 ctermfg=252 gui=NONE guibg=DarkGrey g
 " }
 
 " syncolor {
-hi Comment term=NONE cterm=None ctermbg=None ctermfg=245 gui=italic guibg=bg guifg=#888888
+hi Comment term=NONE cterm=None ctermbg=None ctermfg=242 gui=italic guibg=bg guifg=#888888
 hi Todo term=NONE cterm=italic,bold ctermbg=None ctermfg=244 gui=bold,italic guibg=bg guifg=#808080
 hi Constant term=underline cterm=NONE ctermbg=None ctermfg=167 gui=NONE guibg=bg guifg=#cf6a4c
 hi Special term=bold cterm=NONE ctermbg=None ctermfg=107 gui=NONE guibg=bg guifg=#799d6a
